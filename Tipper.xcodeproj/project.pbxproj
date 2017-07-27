@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		303628971F28160000677B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303628961F28160000677B89 /* AppDelegate.swift */; };
 		303628991F28160000677B89 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303628981F28160000677B89 /* CalculatorViewController.swift */; };
-		3036289C1F28160000677B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3036289A1F28160000677B89 /* Main.storyboard */; };
 		3036289E1F28160000677B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3036289D1F28160000677B89 /* Assets.xcassets */; };
 		303628A11F28160000677B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3036289F1F28160000677B89 /* LaunchScreen.storyboard */; };
 		303628AC1F28160000677B89 /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303628AB1F28160000677B89 /* TipperTests.swift */; };
 		303628B71F28160000677B89 /* TipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303628B61F28160000677B89 /* TipperUITests.swift */; };
-		303628C61F2820EE00677B89 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303628C51F2820EE00677B89 /* SettingsViewController.swift */; };
+		30C0FC261F2907AE00CF5B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C0FC251F2907AE00CF5B04 /* Main.storyboard */; };
+		30C0FC281F29586C00CF5B04 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0FC271F29586C00CF5B04 /* SettingsViewController.swift */; };
+		30C0FC2C1F29599100CF5B04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0FC2B1F29599100CF5B04 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		303628931F28160000677B89 /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303628961F28160000677B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303628981F28160000677B89 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
-		3036289B1F28160000677B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3036289D1F28160000677B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303628A01F28160000677B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303628A21F28160000677B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,9 @@
 		303628B21F28160000677B89 /* TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		303628B61F28160000677B89 /* TipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperUITests.swift; sourceTree = "<group>"; };
 		303628B81F28160000677B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		303628C51F2820EE00677B89 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		30C0FC251F2907AE00CF5B04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		30C0FC271F29586C00CF5B04 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		30C0FC2B1F29599100CF5B04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				303628981F28160000677B89 /* CalculatorViewController.swift */,
-				303628C51F2820EE00677B89 /* SettingsViewController.swift */,
-				3036289A1F28160000677B89 /* Main.storyboard */,
+				30C0FC271F29586C00CF5B04 /* SettingsViewController.swift */,
+				30C0FC2B1F29599100CF5B04 /* Constants.swift */,
+				30C0FC251F2907AE00CF5B04 /* Main.storyboard */,
 				303628C41F28160C00677B89 /* Supporting Files */,
 			);
 			path = Tipper;
@@ -246,9 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C0FC261F2907AE00CF5B04 /* Main.storyboard in Resources */,
 				303628A11F28160000677B89 /* LaunchScreen.storyboard in Resources */,
 				3036289E1F28160000677B89 /* Assets.xcassets in Resources */,
-				3036289C1F28160000677B89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +278,8 @@
 			files = (
 				303628991F28160000677B89 /* CalculatorViewController.swift in Sources */,
 				303628971F28160000677B89 /* AppDelegate.swift in Sources */,
-				303628C61F2820EE00677B89 /* SettingsViewController.swift in Sources */,
+				30C0FC281F29586C00CF5B04 /* SettingsViewController.swift in Sources */,
+				30C0FC2C1F29599100CF5B04 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3036289A1F28160000677B89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3036289B1F28160000677B89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3036289F1F28160000677B89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -524,6 +520,7 @@
 				303628BD1F28160000677B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		303628BE1F28160000677B89 /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +529,7 @@
 				303628C01F28160000677B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		303628C11F28160000677B89 /* Build configuration list for PBXNativeTarget "TipperUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +538,7 @@
 				303628C31F28160000677B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
