@@ -17,20 +17,22 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-Coming soon!
+* [x] Custom numeric keyboard to avoid illegal inputs to textfields
+* [x] Enter any percentage for tip
+* [x] A 'split the check' function to calculate the cost per person
+* [x] Choose a gradient background in the settings screen. Preffered background is remembered between app launches
+
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/v6kraGv.gif' title='Video Walkthrough of Tipper' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='http://imgur.com/a/MbqXc' title='Video Walkthrough of Tipper' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Issue: When returning from the settings screen after changing default value, the calculator screen lags before updating
+Issue: Lost functionality to caclulate the tip amount from the tip percentage & vise-versa
